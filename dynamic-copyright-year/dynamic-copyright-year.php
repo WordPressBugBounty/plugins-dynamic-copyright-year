@@ -3,7 +3,7 @@
 Plugin Name: Dynamic Copyright Year
 Plugin URI: dynamic-copyright-year
 Description: Updates the copyright year in the footer dynamically so it's always current.
-Version: 1.0.3
+Version: 1.0.4
 Author: 5 Star Plugins
 Author URI: https://5starplugins.com/
 License: GPLv2 or later

@@ -1,8 +1,8 @@
 === Dynamic Copyright Year ===
-Contributors: 5starplugins
+Contributors: 5starplugins, freemius
 Tags: dynamic, localization, copyright, footer links, privacy policy
-Tested up to: 6.4.3
-Stable tag: 1.0.3
+Tested up to: 6.7
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -117,11 +117,13 @@ If your question is not listed here [visit our knowledge base.](https://support.
 3. Settings Page - Premium
 4. Footer Policy Links - Premium
 
-
 == Upgrade Notice ==
-* Upgrade to 1.0.3 for updated Freemius SDK v2.5.10
+* Upgrade to 1.0.4 for updated Freemius SDK v2.9.0 which improves the checkout and contact form implementations, and API caching.
 
 == Changelog ==
+= 1.0.4 =
+* Updated to Freemius SDK v2.9.0 which improves the checkout and contact form implementations, and API caching.
+
 = 1.0.3 =
 * Update Freemius SDK to v2.5.10
 
