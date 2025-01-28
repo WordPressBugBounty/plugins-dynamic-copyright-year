@@ -3,7 +3,7 @@
 Plugin Name: Dynamic Copyright Year
 Plugin URI: dynamic-copyright-year
 Description: Updates the copyright year in the footer dynamically so it's always current.
-Version: 1.0.4
+Version: 1.1
 Author: 5 Star Plugins
 Author URI: https://5starplugins.com/
 License: GPLv2 or later
@@ -55,7 +55,7 @@ if ( $options['fscymu-enabled-1'] == true ) {
 			$fscymuSeparator3 = '&nbsp;| ';
 		}
 
-		if ( $options['prem-position-1'] == 'below' ) {
+		if ( empty($options['prem-position-1']) || $options['prem-position-1'] == 'below' ) {
 			$fscymuSeparator1 = '';
 			$fscymuSeparator2 = '&nbsp;| ';
 			$fscymuSeparator3 = '&nbsp;| ';
@@ -70,7 +70,7 @@ if ( $options['fscymu-enabled-1'] == true ) {
  .fscymu-links { clear:both;}
 </style>
 <?php }
-		if ( $options['fscymu-policylink-ptag'] ) {
+		if ( empty($options['fscymu-policylink-ptag']) || $options['fscymu-policylink-ptag'] ) {
 			$fscymuPtagStart = '\'<p>\'';
 			$fscymuPtagEnd = '\'</p>\'';
 		} else {

@@ -1,8 +1,8 @@
 === Dynamic Copyright Year ===
-Contributors: 5starplugins, freemius
+Contributors: 5starplugins
 Tags: dynamic, localization, copyright, footer links, privacy policy
 Tested up to: 6.7
-Stable tag: 1.0.4
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -118,9 +118,12 @@ If your question is not listed here [visit our knowledge base.](https://support.
 4. Footer Policy Links - Premium
 
 == Upgrade Notice ==
-* Upgrade to 1.0.4 for updated Freemius SDK v2.9.0 which improves the checkout and contact form implementations, and API caching.
+* Update today: Fixed PHP "Undefined array key" warnings. Updated Freemius SDK to latest version.
 
 == Changelog ==
+= 1.1 =
+* Fixed PHP "Undefined array key" warnings. Updated Freemius SDK to latest version.
+
 = 1.0.4 =
 * Updated to Freemius SDK v2.9.0 which improves the checkout and contact form implementations, and API caching.
 
